@@ -16,7 +16,10 @@ public class Printf {
 		
 		String s = "hi, we are almost done!";
 		
-		System.out.printf("%s\n", s);
+		System.out.printf("%s\n"+10, s);
+		
+		System.out.printf("value of x is %d"+x, x);
+		
 
 	}
 
