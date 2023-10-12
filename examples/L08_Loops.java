@@ -102,7 +102,7 @@ System.out.println();
 		System.out.println();
 		count = 1;		//remember to initialize!!
 		
-		while(count < 10)		
+		while(count < 10);		
 		{	
 		
 			if (count%2 != 0)  //or == 1
@@ -112,6 +112,14 @@ System.out.println();
 			count ++;
 		
 		}
+		
+		boolean stop = false;
+		while(!stop)
+		{
+			//some big program...
+		}
+		
+		//
 	}
 	
 	
