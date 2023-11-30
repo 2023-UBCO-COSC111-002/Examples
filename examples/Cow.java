@@ -10,8 +10,8 @@ public class Cow {
 	public Cow()
 	{
 		this("Anonymous", 50);		//if you call another constructor, 'this' must be done first!!
-		
 		this.stomach = 60;
+
 		//this("Anonymous", 50); //this will cause an issue!
 		//this.nickname = "Anonymous";
 		
@@ -21,8 +21,10 @@ public class Cow {
 	//the no-arg (default) constructor goes away!!!
 	public Cow(String name, int stomach)
 	{
+		//this();
 		this.nickname = name;
 		this.stomach = stomach;
+		this.sayMyName();
 	}
 	
 	
